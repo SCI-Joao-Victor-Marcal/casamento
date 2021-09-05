@@ -9,9 +9,10 @@
 
 body{
     background-image: url("img/img02.JPG");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    height: 100%;
-    display: flex;
     align-items: center;
     color: rgb(255, 246, 208);
 }
@@ -28,7 +29,7 @@ body{
 }
 
 .invite{
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 h1{    
@@ -51,6 +52,6 @@ h3{
 
 h4{
     font-size: 30px;
-    line-height: 60px;
+    line-height: 50px;
     font-family: "Indie Flower";
 }
