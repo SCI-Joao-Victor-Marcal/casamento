@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("img/img02.JPG");
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 246, 208);
+}
+
+.save-the-date{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    background-color: rgba(143, 16, 16, 0.445);
+}
+
+.invite{
+    padding-bottom: 40px;
+}
+
+h1{    
+    font-size: 160px;
+    line-height: 140px;
+    font-family: "Sacramento";
+}
+
+h2{
+    font-size: 40px;
+    line-height: 60px;
+    font-family: "Sacramento";
+}
+
+h3{
+    font-size: 60px;
+    line-height: 80px;
+    font-family: "Satisfy";
+}
+
+h4{
+    font-size: 30px;
+    line-height: 60px;
+    font-family: "Indie Flower";
+}
